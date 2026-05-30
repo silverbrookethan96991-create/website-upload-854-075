@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索-经典国产剧-经典剧集片库</title>
+    <meta name="description" content="经典国产剧栏目整理口碑与年代感较强的剧集内容，适合查找经典国产电视剧。">
+    <meta name="keywords" content="影片搜索,经典国产剧,国产电视剧,经典剧集,电视剧片库,高清剧集,国产剧合集,在线观看">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="影片搜索-经典国产剧-经典剧集片库">
+    <meta property="og:description" content="经典国产剧栏目整理口碑与年代感较强的剧集内容，适合查找经典国产电视剧。">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="./assets/original.css">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="site-logo" href="./index.html" aria-label="经典剧集片库首页">
+                <span class="site-logo-mark">剧</span>
+                <span class="site-logo-text">经典剧集片库</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a class="nav-link " href="./index.html">首页</a>
+                <a class="nav-link " href="./categories.html">分类</a>
+                <a class="nav-link " href="./ranking.html">排行榜</a>
+                <a class="nav-link is-active" href="./search.html">搜索</a>
+            </nav>
+            <form class="header-search" action="./search.html" method="get">
+                <label class="sr-only" for="global-search">搜索影片</label>
+                <input id="global-search" name="q" type="search" placeholder="搜索剧名、类型、标签" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-menu-button" type="button" data-mobile-menu-toggle aria-label="打开导航">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="mobile-panel" data-mobile-panel>
+            <form class="mobile-search" action="./search.html" method="get">
+                <input name="q" type="search" placeholder="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+            <nav class="mobile-nav" aria-label="移动端导航">
+                <a href="./index.html">首页</a>
+                <a href="./categories.html">分类总览</a>
+                <a href="./ranking.html">排行榜</a>
+                <a href="./search.html">搜索</a>
+            </nav>
+            <div class="mobile-sub-nav">
+                <a class="mobile-sub-link" href="./category-classic-domestic-drama.html">经典国产剧</a>
+                <a class="mobile-sub-link" href="./category-suspense-spy.html">悬疑谍战</a>
+                <a class="mobile-sub-link" href="./category-era-family.html">年代家庭</a>
+                <a class="mobile-sub-link" href="./category-urban-romance.html">都市情感</a>
+                <a class="mobile-sub-link" href="./category-comedy-healing.html">喜剧治愈</a>
+                <a class="mobile-sub-link" href="./category-action-crime.html">动作犯罪</a>
+                <a class="mobile-sub-link" href="./category-fantasy-sci-fi.html">奇幻科幻</a>
+                <a class="mobile-sub-link" href="./category-youth-literary.html">青春文艺</a>
+            </div>
+        </div>
+    </header>
+    <main class="page-main">
+        <section class="page-hero compact-page-hero search-hero">
+            <div class="section-container">
+                <p class="breadcrumb"><a href="./index.html">首页</a> / 搜索</p>
+                <h1>影片搜索</h1>
+                <p>可按剧名、地区、年份、题材、标签检索全站影片。</p>
+                <form class="search-page-form" action="./search.html" method="get" data-search-page-form>
+                    <input type="search" name="q" placeholder="输入关键词，如 悬疑、家庭、2025" autocomplete="off" data-search-input>
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </section>
+        <section class="content-section dark-section">
+            <div class="section-container">
+                <div class="search-summary" data-search-summary>请输入关键词开始搜索。</div>
+                <div class="movie-grid all-grid" data-search-results></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="footer-brand">
+                <a class="site-logo footer-logo" href="./index.html">
+                    <span class="site-logo-mark">剧</span>
+                    <span class="site-logo-text">经典剧集片库</span>
+                </a>
+                <p>经典国产剧栏目整理口碑与年代感较强的剧集内容，适合查找经典国产电视剧。</p>
+            </div>
+            <div class="footer-col">
+                <h3>频道分类</h3>
+                <ul>
+                    <li><a href="./category-classic-domestic-drama.html">经典国产剧</a></li>
+                    <li><a href="./category-suspense-spy.html">悬疑谍战</a></li>
+                    <li><a href="./category-era-family.html">年代家庭</a></li>
+                    <li><a href="./category-urban-romance.html">都市情感</a></li>
+                    <li><a href="./category-comedy-healing.html">喜剧治愈</a></li>
+                    <li><a href="./category-action-crime.html">动作犯罪</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>站内导航</h3>
+                <ul>
+                    <li><a href="./index.html">首页推荐</a></li>
+                    <li><a href="./categories.html">分类总览</a></li>
+                    <li><a href="./ranking.html">片库排行榜</a></li>
+                    <li><a href="./search.html">影片搜索</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-note">
+                <h3>观影提示</h3>
+                <p>建议使用支持 HLS 的现代浏览器访问，手机与电脑均可浏览。</p>
+            </div>
+        </div>
+        <div class="site-footer-bottom">
+            <p>© 2026 经典剧集片库 · 国产电视剧视频免费在线观看</p>
+        </div>
+    </footer>
+    <script src="./assets/movies.js"></script>
+    <script src="./assets/site.js"></script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body>
+</html>
